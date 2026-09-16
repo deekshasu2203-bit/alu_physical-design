@@ -1,0 +1,44 @@
+# ALU Physical Design
+
+This project focuses on the **RTL-to-GDSII physical design flow of an Arithmetic Logic Unit (ALU)** using standard VLSI design tools.
+
+## Project Overview
+
+The ALU performs basic arithmetic and logical operations based on the selected control signal. The design is taken through synthesis and physical design stages to generate the final layout.
+
+## Operations
+
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* AND
+* OR
+* XOR
+
+## Physical Design Flow
+
+**RTL → Synthesis → Floorplanning → Placement → CTS → Routing → GDSII**
+
+## Tools Used
+
+* Verilog HDL
+* Cadence Genus – Synthesis
+* Cadence Innovus – Physical Design
+* Linux / TCL scripting
+
+## Main Steps
+
+1. RTL design and functional verification
+2. Logic synthesis
+3. Floorplanning
+4. Power planning
+5. Standard-cell placement
+6. Clock Tree Synthesis (CTS)
+7. Routing
+8. Timing and physical verification
+9. GDSII generation
+
+## Objective
+
+To implement and analyze a complete **RTL-to-GDSII flow for an ALU**, while understanding important physical design parameters such as **area, timing, power, placement, and routing**.
